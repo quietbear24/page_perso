@@ -1,0 +1,14 @@
+doctype html
+html(
+  itemscope = ""
+  itemtype  = "http://schema.org/Event"
+  lang      = "fr"
+  xmlns:fb  = "http://ogp.me/ns/fb#"
+  ng-app    = "tp"
+)
+  head
+    = partial "partials/meta"
+  body
+    / 
+      = partial "templates/nav/nav"
+    = yield
