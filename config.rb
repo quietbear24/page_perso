@@ -12,6 +12,7 @@ activate :directory_indexes
 set :js_dir, 'assets/javascripts'
 set :css_dir, 'assets/stylesheets'
 set :images_dir, 'assets/images'
+set :fonts_dir, 'assets/fonts'
 
 page '/templates/*', :layout => false
 # Add bower's directory to sprockets asset path
